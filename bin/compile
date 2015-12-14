@@ -70,6 +70,6 @@ done
 
 topic "Writing profile script"
 mkdir -p $BUILD_DIR/.profile.d
-cp $BUILDPACK_DIR/extra/barricade-agent.sh $BUILD_DIR/.profile.d/
+cp $BUILDPACK_DIR/helper/barricade-agent.sh $BUILD_DIR/.profile.d/
 chmod +x $BUILD_DIR/.profile.d/barricade-agent.sh
 topic "Barricade Agent package installed"
