@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir> <env-dir>
 
-curl -sSL http://development-staging.barricade.io/install/0e77c8f7-7f28-4371-804f-39ec18981b70/install.sh | sudo bash
+curl -sSL http://development-staging.barricade.io/install/0e77c8f7-7f28-4371-804f-39ec18981b70/install.sh | bash
